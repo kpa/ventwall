@@ -1,3 +1,26 @@
 // Place all the styles related to the items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$bgc:#00FF00;
+
+body{
+    background-color: $bgc;
+}
+
+@mixin letra($size){
+    font-size: $size;
+    color: #FF8000;
+    font-weight: bold;
+}
+
+*{
+/*AFECTA A TODOS LOS ELEMENTOS*/
+}
+
+label{
+    @include letra(16px);
+    a{
+        
+    }
+}
