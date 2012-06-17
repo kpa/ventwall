@@ -1,4 +1,6 @@
 Ventwall::Application.routes.draw do
+  resources :comments
+
   resources :items
   
   #root :to => "items#index", :as => "items"

@@ -1,8 +1,8 @@
-// Place all the styles related to the items controller here.
+// Place all the styles related to the comments controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-$bgc:#00FF00;
+$bgc:#3104B4;
 
 body{
     background-color: $bgc;
@@ -10,7 +10,7 @@ body{
 
 @mixin letra($size){
     font-size: $size;
-    color: #FF8000;
+    color: #3104B4;
     font-weight: bold;
 }
 
@@ -19,19 +19,16 @@ body{
 }
 
 label{
-    @include letra(13px);
+    @include letra(10px);
     a{
         
     }
 }
 
-table
-{
-    border-collapse: collapse; /* 'cellspacing' equivalent */
+fieldset {
+    margin: 0;
+    padding: 6px;
+    color:#00f;
+    background-color:#ddd;
+    width: 510px;
 }
-
-table td, table th
-{
-    padding: 8px; /* 'cellpadding' equivalent */
-}
-

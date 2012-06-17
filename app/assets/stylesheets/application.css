@@ -23,3 +23,15 @@ table, td, th { vertical-align: middle !important; border: none !important; }
 th { border-bottom: 1px solid #DDD !important; }
 td.picture { width: 140px; }
 td.picture img { width: 140px; }
+
+input, textarea {
+    width: 510px;
+}
+
+textarea {
+    height: 210px;
+}
+
+input#item_price{
+    width: 60px;
+}

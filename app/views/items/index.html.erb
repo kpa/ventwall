@@ -16,7 +16,7 @@
   <tr>
     <td><%= item.name %></td>
     <td><%= item.description %></td>
-    <td><%= item.image %></td>
+    <td><%= image_tag(item.image_url, :width => 100) if item.image.present? %></td>
     <td><%= item.price %></td>
     <td><%= item.contact %></td>
     <td><%= link_to 'Show', item %></td>
